@@ -1,8 +1,8 @@
  class BankAccount:
-    def __init__(self,name,account_balance, int_rate):
+    def __init__(self,name, account_balance, int_rate):
       self.name= name
-      self.account_balance=0
-      self.int_rate=0.01
+      self.account_balance=account_balance
+      self.int_rate=int_rate
       
     def deposit(self,amount):
       self.account_balance+=amount
